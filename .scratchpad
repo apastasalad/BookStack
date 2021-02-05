@@ -1,0 +1,1 @@
+docker run --restart=always --name bookstack --net=bridge -e TZ=Australia/Sydney -e DB_HOST=[IP ADDRESS] -e DB_DATABASE=[DB NAME] -e DB_USERNAME=[USERNAME] -e DB_PASSWORD=[PASSWPRD] -e APP_URL="" -e DB_PORT=3306 -p 8083:80 -v[STORAGE] linuxserver/bookstack
