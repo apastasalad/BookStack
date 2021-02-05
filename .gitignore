@@ -25,4 +25,3 @@ webpack-stats.json
 .phpunit.result.cache
 .DS_Store
 package-lock.json
-package-lock.json
